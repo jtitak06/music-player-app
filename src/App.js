@@ -33,12 +33,14 @@ const [currentSongIndex, setCurrentSongIndex] = useState(0);
 const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1);
 
 useEffect(() => {
-  if (currentSongIndex + 1 > songs.length - 1) {
+setNextSongIndex(() => {
+  if (currentSongIndex + 1 > songs.length -1) {
     return 0;
   } else {
     return currentSongIndex + 1;
   }
-}, [currentSongIndex])
+})
+}, [currentSongIndex]);
 
   return (
     <div className="App">
