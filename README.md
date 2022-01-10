@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Music Player App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Intro**
+
+This project is a music player that was bootstrapped with React.
+
+**Links**
+
+* [Link to project](https://jtitak06.github.io/music-player-app/)
+* [Github repository](https://github.com/jtitak06/music-player-app)
+
+**My Process**
+This project is a music player application build on React. The first step of this project was to build the HTML and CSS. Since I was unfamiliar with how to create audio and other aspects of this project in React, I used most of the styling features from a YouTube tutorial video.
+
+After the HTML and CSS was complete, I then coded the application. The first step was to import useState, useRef, and useEffect from React. Then, I proceeded to install font-awesome to be able to have the icons on the buttons. Different features were coded in two js files with the functionality components imported to the Player.js file. Player.js was then exported to the App.js file and App.js was exported to the index.js file.
+
+Each Javascript file serves a different purpose for this project. The PlayerControls.js file dictates the functionality of the application. Specifically the the play and skip buttons. The PlayerDetails.js file changes the display of the current song and next song. The Player.js file makes the functional components work with the useState, useEffect, and useRef features from React.
+
+The songs in this music player are Afrobeats songs that were popular at the time of creation.
 
 ## Available Scripts
 
